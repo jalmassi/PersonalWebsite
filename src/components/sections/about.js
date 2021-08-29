@@ -145,16 +145,13 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I enjoy creating things that live on the internet. My interest in web development
-              started back in 2012 when I decided to try editing custom Tumblr themes — turns out
-              hacking together a custom reblog button taught me a lot about HTML &amp; CSS!
+              I am an automation engineer with a passion for programming websites &amp; apps, and
+              all things automatable!
             </p>
 
             <p>
-              <a href="https://authentication.td.com/uap-ui/index.html?consumer=easyweb&locale=en_CA#/login/easyweb-getting-started">
-                TD Bank
-              </a>{' '}
-              for a variety of clients.
+              I currently work at <a href="https://easyweb.td.com/"> TD Bank</a> exploring ways to
+              automate development process from a full stack perspective.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
@@ -169,7 +166,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/profilePhoto.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
