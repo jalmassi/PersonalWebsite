@@ -1,28 +1,57 @@
 import React from 'react';
 
 const IconLoader = () => (
-  <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-    <title>Loader Logo</title>
-    <g>
-      <g id="B" transform="translate(11.000000, 5.000000)">
-        <path
-          d="M45.691667,45.15 C48.591667,46.1 50.691667,48.95 50.691667,52.2 C50.691667,57.95 46.691667,61 40.291667,61 L28.541667,61 L28.541667,30.3 L39.291667,30.3 C45.691667,30.3 49.691667,33.15 49.691667,38.65 C49.691667,41.95 47.941667,44.35 45.691667,45.15 Z M33.591667,43.2 L39.241667,43.2 C42.791667,43.2 44.691667,41.85 44.691667,38.95 C44.691667,36.05 42.791667,34.8 39.241667,34.8 L33.591667,34.8 L33.591667,43.2 Z M33.591667,47.5 L33.591667,56.5 L40.191667,56.5 C43.691667,56.5 45.591667,54.75 45.591667,52 C45.591667,49.2 43.691667,47.5 40.191667,47.5 L33.591667,47.5 Z"
-          fill="currentColor"
-        />
-      </g>
-      <path
-        stroke="currentColor"
-        strokeWidth="5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M 50, 5
-                  L 11, 27
-                  L 11, 72
-                  L 50, 95
-                  L 89, 73
-                  L 89, 28 z"
+  <svg
+    version="1.1"
+    id="L7"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    x="0px"
+    y="0px"
+    viewBox="0 0 100 100"
+    xmlSpace="preserve">
+    <path
+      fill="#fff"
+      d="M31.6,3.5C5.9,13.6-6.6,42.7,3.5,68.4c10.1,25.7,39.2,38.3,64.9,28.1l-3.1-7.9c-21.3,8.4-45.4-2-53.8-23.3
+  c-8.4-21.3,2-45.4,23.3-53.8L31.6,3.5z">
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="rotate"
+        dur="2s"
+        from="0 50 50"
+        to="360 50 50"
+        repeatCount="indefinite"
       />
-    </g>
+    </path>
+    <path
+      fill="#fff"
+      d="M42.3,39.6c5.7-4.3,13.9-3.1,18.1,2.7c4.3,5.7,3.1,13.9-2.7,18.1l4.1,5.5c8.8-6.5,10.6-19,4.1-27.7
+  c-6.5-8.8-19-10.6-27.7-4.1L42.3,39.6z">
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="rotate"
+        dur="1s"
+        from="0 50 50"
+        to="-360 50 50"
+        repeatCount="indefinite"
+      />
+    </path>
+    <path
+      fill="#fff"
+      d="M82,35.7C74.1,18,53.4,10.1,35.7,18S10.1,46.6,18,64.3l7.6-3.4c-6-13.5,0-29.3,13.5-35.3s29.3,0,35.3,13.5
+  L82,35.7z">
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="rotate"
+        dur="2s"
+        from="0 50 50"
+        to="360 50 50"
+        repeatCount="indefinite"
+      />
+    </path>
   </svg>
 );
 
