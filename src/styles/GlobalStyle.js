@@ -170,8 +170,6 @@ const GlobalStyle = createGlobalStyle`
     &:before {
       position: relative;
       bottom: 4px;
-      counter-increment: section;
-      content: '0' counter(section) '.';
       margin-right: 10px;
       color: var(--green);
       font-family: var(--font-mono);
