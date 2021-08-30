@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
+import { Layout, Main, About, Jobs, Featured, Projects, Contact } from '@components';
 
 const IndexPage = ({ location }) => (
   <Layout location={location}>
-    <Hero />
+    <Main />
     <About />
     <Jobs />
     <Featured />

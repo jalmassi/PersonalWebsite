@@ -5,7 +5,7 @@ import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
 
-const StyledHeroSection = styled.section`
+const StyledMainContainer = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
@@ -45,7 +45,7 @@ const StyledHeroSection = styled.section`
   }
 `;
 
-const Hero = () => {
+const Main = () => {
   const [isMounted, setIsMounted] = useState(false);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -80,7 +80,7 @@ const Hero = () => {
   const items = [one, two, three, four, five];
 
   return (
-    <StyledHeroSection>
+    <StyledMainContainer>
       {prefersReducedMotion ? (
         <>
           {items.map((item, i) => (
@@ -97,8 +97,8 @@ const Hero = () => {
             ))}
         </TransitionGroup>
       )}
-    </StyledHeroSection>
+    </StyledMainContainer>
   );
 };
 
-export default Hero;
+export default Main;
