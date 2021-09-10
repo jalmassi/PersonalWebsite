@@ -5,7 +5,7 @@ module.exports = {
     {
       name: 'GitHub',
       url: 'https://github.com/jalmassi',
-    },  
+    },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/justin-almassi-0bb333135/',
@@ -32,7 +32,7 @@ module.exports = {
   ],
 
   colors: {
-    green: '#64ffda',
+    green: '#afeeee',
     navy: '#0a192f',
     darkNavy: '#020c1b',
   },
