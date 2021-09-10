@@ -130,6 +130,7 @@ const About = () => {
     'Java',
     'Python',
     'Jenkins',
+    'Twilio',
     'Dynatrace',
     'JavaScript (ES6+)',
     'Node.js',
