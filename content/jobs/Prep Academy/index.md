@@ -1,13 +1,13 @@
 ---
-date: '2021-02-01'
-title: 'Automation Engineer'
-company: 'TD Bank'
+date: '2018-02-01'
+title: 'Computer Science and Math Tutor'
+company: 'Prep Academy'
 location: 'Toronto ON'
-range: 'February, 2021 - Present'
-url: 'https://www.apple.com/music/'
+range: 'February, 2018 - Present'
+url: 'https://prepacademytutors.com/'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Taught high school and university students in computer science, math and physics
+- Prepared private school students for their exams, tests, and projects in C, Java and Python
+- Clarified object-oriented concepts and build programming projects
+- Helped International Baccalaureate students write their assignments and take-home exams, and improved their grades up to 30%
