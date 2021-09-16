@@ -1,10 +1,10 @@
 ---
-date: '2018-03-01'
-title: 'Computer Science and Math Tutor'
-company: 'Prep Academy'
+date: '2021-2-01'
+title: 'Software/Automation Engineer'
+company: 'TD Bank'
 location: 'Toronto ON'
-range: 'March, 2018 - Present'
-url: 'https://prepacademytutors.com/'
+range: 'February, 2021 - Present'
+url: 'https://www.td.com/ca'
 ---
 
 - Developed and shipped highly interactive web applications for Apple Music using Ember.js

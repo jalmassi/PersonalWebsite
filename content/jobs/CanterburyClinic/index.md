@@ -1,7 +1,7 @@
 ---
 date: '2017-09-01'
 title: 'IT Administrator and Web Developer'
-company: 'Prep Academy'
+company: 'Canterbury Clinic'
 location: 'Toronto ON'
 range: 'September, 2017 - September, 2019'
 url: 'https://www.facebook.com/canterburyclinic790bay/'
