@@ -1,13 +1,14 @@
 ---
 date: '2021-2-01'
-title: 'Software/Automation Engineer'
+title: 'Automation Engineer'
 company: 'TD Bank'
 location: 'Toronto ON'
 range: 'February, 2021 - Present'
 url: 'https://www.td.com/ca'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Developed programs in both Java and Python to automate end-to-end processes in the development environment
+- Built Twilio system with Java and Javascript to receive text messages and voice calls, and automatically follow caller instructions
+- Created API GUI tool in Python to collect data on environment problems and user sessions
+- Troubleshoot environment problems with Splunk logs in conjunction with Dynatrace API and UI tracing
+- Helped upload automation program to Docker with Kubernetes and Jenkins
