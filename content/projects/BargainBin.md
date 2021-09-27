@@ -6,7 +6,7 @@ external: ''
 tech:
   - JS
   - Angular
-  - Node
+  - Express
 company: ''
 showInProjects: true
 ---

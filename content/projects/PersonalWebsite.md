@@ -7,6 +7,8 @@ tech:
   - Gatsby
   - JS
   - React
+  - GraphQL
+  - Node
 company: ''
 showInProjects: true
 ---
