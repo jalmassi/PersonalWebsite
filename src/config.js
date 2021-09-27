@@ -1,6 +1,5 @@
 module.exports = {
   email: 'justin.almassi@gmail.com',
-  //delete all social media except github and linkedin
   socialMedia: [
     {
       name: 'GitHub',
@@ -22,7 +21,7 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {

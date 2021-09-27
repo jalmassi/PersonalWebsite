@@ -215,7 +215,7 @@ const Projects = () => {
     const { github, external, title, tech } = frontmatter;
 
     return (
-      <div className="project-inner">
+      <div id="projects" className="project-inner">
         <header>
           <div className="project-top">
             <div className="folder">
@@ -267,7 +267,7 @@ const Projects = () => {
       <h2 ref={revealTitle}>Projects I've Developed</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
+        Full project list
       </Link>
 
       <ul className="projects-grid">
