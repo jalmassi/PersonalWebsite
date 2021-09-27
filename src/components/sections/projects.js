@@ -215,7 +215,7 @@ const Projects = () => {
     const { github, external, title, tech } = frontmatter;
 
     return (
-      <div id="projects" className="project-inner">
+      <div className="project-inner">
         <header>
           <div className="project-top">
             <div className="folder">
@@ -263,7 +263,7 @@ const Projects = () => {
   };
 
   return (
-    <StyledProjectsSection>
+    <StyledProjectsSection id="projects">
       <h2 ref={revealTitle}>Projects I've Developed</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
