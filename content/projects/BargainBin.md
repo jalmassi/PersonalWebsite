@@ -1,13 +1,13 @@
 ---
-date: '2021-01-01'
-title: 'Bargain Bin Stock Site'
-github: 'https://github.com/jalmassi/BargainBin'
-external: ''
+date: "2021-01-31"
+title: "Bargain Bin Stock Site"
+github: "https://github.com/jalmassi/BargainBin"
+external: ""
 tech:
   - JS
   - Angular
   - Express
-company: ''
+company: ""
 showInProjects: true
 ---
 

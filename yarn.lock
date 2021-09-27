@@ -2113,18 +2113,6 @@
     "@typescript-eslint/types" "4.22.1"
     eslint-visitor-keys "^2.0.0"
 
-"@upstatement/eslint-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@upstatement/eslint-config/-/eslint-config-1.0.0.tgz#6e8ce5353a17ce245cf30fdf84f6b42195a01fd0"
-  integrity sha512-mKgfTqL5MO7Nry+JATCM6/1JMwC2mqSeCFubKq7JzRu3DLxQhg9HuUf3kOltxoS9n0HKv8o8hKmGEewrG3008g==
-
-"@upstatement/prettier-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@upstatement/prettier-config/-/prettier-config-1.0.0.tgz#58ab1dc0cf68925e1cc7ad657ee02fc1866d675c"
-  integrity sha512-Sj6DWb+jKOoMNIPmdSbY+6xEk1GU8Zq46haHcMa0G/Qv/QbGBr9CWyBW00oo2/68a1kXHhiiOaUdYP13QIg2Pw==
-  dependencies:
-    prettier "^2.x.x"
-
 "@webassemblyjs/ast@1.11.0":
   version "1.11.0"
   resolved "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.11.0.tgz#a5aa679efdc9e51707a4207139da57920555961f"
