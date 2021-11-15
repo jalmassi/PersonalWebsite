@@ -1,14 +1,15 @@
-const config = require('./src/config');
+const config = require("./src/config");
 
 module.exports = {
   siteMetadata: {
-    title: 'Justin Almassi',
+    title: "Justin Almassi",
     description:
-      'Justin Almassi is an automation/devOps engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'localhost:8000', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
+      "Justin Almassi is an automation/devOps engineer who specializes in building (and occasionally designing) exceptional digital experiences.",
+    siteUrl: "localhost:8000", // No trailing slash allowed!
+    image: "/og.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "",
   },
+  pathPrefix: "/PersonalWebsite",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -20,13 +21,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'JustinAlmassi',
-        short_name: 'JustinAlmassi',
-        start_url: '/',
+        name: "JustinAlmassi",
+        short_name: "JustinAlmassi",
+        start_url: "/",
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
-        display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        display: "minimal-ui",
+        icon: "src/images/logo.png",
       },
     },
     `gatsby-plugin-offline`,
@@ -38,9 +39,9 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'content',
+        name: "content",
         path: `${__dirname}/content/`,
       },
     },
@@ -63,14 +64,14 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-external-links',
+            resolve: "gatsby-remark-external-links",
             options: {
-              target: '_blank',
-              rel: 'nofollow noopener noreferrer',
+              target: "_blank",
+              rel: "nofollow noopener noreferrer",
             },
           },
           {
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
               maxWidth: 700,
               linkImagesToOriginal: true,
@@ -79,12 +80,12 @@ module.exports = {
             },
           },
           {
-            resolve: 'gatsby-remark-code-titles',
+            resolve: "gatsby-remark-code-titles",
           },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: 'language-',
+              classPrefix: "language-",
               // This is used to allow setting a language for inline code
               // (i.e. single backticks) by creating a separator.
               // This separator is a string and will do no white-space
@@ -114,8 +115,8 @@ module.exports = {
               // existing language" below.
               languageExtensions: [
                 {
-                  language: 'superscript',
-                  extend: 'javascript',
+                  language: "superscript",
+                  extend: "javascript",
                   definition: {
                     superscript_types: /(SuperType)/,
                   },
@@ -129,8 +130,8 @@ module.exports = {
               // Customize the prompt used in shell output
               // Values below are default
               prompt: {
-                user: 'root',
-                host: 'localhost',
+                user: "root",
+                host: "localhost",
                 global: false,
               },
             },
