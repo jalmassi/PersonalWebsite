@@ -1,13 +1,13 @@
-import React, { useRef, useEffect } from 'react';
-import { graphql } from 'gatsby';
-import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
-import styled from 'styled-components';
-import { srConfig } from '@config';
-import sr from '@utils/sr';
-import { Layout } from '@components';
-import { Icon } from '@components/icons';
-import { usePrefersReducedMotion } from '@hooks';
+import React, { useRef, useEffect } from "react";
+import { graphql } from "gatsby";
+import PropTypes from "prop-types";
+import { Helmet } from "react-helmet";
+import styled from "styled-components";
+import { srConfig } from "@config";
+import sr from "@utils/sr";
+import { Layout } from "@components";
+import { Icon } from "@components/icons";
+import { usePrefersReducedMotion } from "@hooks";
 
 const StyledTableContainer = styled.div`
   margin: 100px -20px;
@@ -143,7 +143,9 @@ const ArchivePage = ({ location, data }) => {
 
     sr.reveal(revealTitle.current, srConfig());
     sr.reveal(revealTable.current, srConfig(200, 0));
-    revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 10)));
+    revealProjects.current.forEach((ref, i) =>
+      sr.reveal(ref, srConfig(i * 10))
+    );
   }, []);
 
   return (
@@ -152,8 +154,8 @@ const ArchivePage = ({ location, data }) => {
 
       <main>
         <header ref={revealTitle}>
-          <h1 className="big-heading">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <h1 className="big-heading">My Projects</h1>
+          <p className="subtitle">What I&apos;ve built</p>
         </header>
 
         <StyledTableContainer ref={revealTable}>
@@ -170,10 +172,19 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const { date, github, external, title, tech, company } = node.frontmatter;
+                  const {
+                    date,
+                    github,
+                    external,
+                    title,
+                    tech,
+                    company,
+                  } = node.frontmatter;
                   return (
-                    <tr key={i} ref={el => (revealProjects.current[i] = el)}>
-                      <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
+                    <tr key={i} ref={(el) => (revealProjects.current[i] = el)}>
+                      <td className="overline year">{`${new Date(
+                        date
+                      ).getFullYear()}`}</td>
 
                       <td className="title">{title}</td>
 
@@ -186,8 +197,10 @@ const ArchivePage = ({ location, data }) => {
                           tech.map((item, i) => (
                             <span key={i}>
                               {item}
-                              {''}
-                              {i !== tech.length - 1 && <span className="separator">&middot;</span>}
+                              {""}
+                              {i !== tech.length - 1 && (
+                                <span className="separator">&middot;</span>
+                              )}
                             </span>
                           ))}
                       </td>
