@@ -1,5 +1,5 @@
 ---
-permalink: /index.html
+permalink: /src/pages/index.html
 ---
 
 ## Set Up
