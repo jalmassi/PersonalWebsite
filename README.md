@@ -1,37 +1,41 @@
+---
+permalink: /index.html
+---
+
 ## Set Up
 
 Gatsby CLI
 
-   ```sh
-   npm install -g gatsby-cli
-   ```
+```sh
+yarn install -g gatsby-cli
+```
 
 Dependencies
 
-   ```sh
-   yarn
-   ```
+```sh
+yarn
+```
 
 Node.js
 
-   ```sh
-   nvm install
-   ```
-
+```sh
+nvm install
+```
 
 Run
 
-   ```sh
-   npm start
-   ```
+```sh
+npm start
+```
+
 Production Build
 
-   ```sh
-   npm run build
-   ```
+```sh
+npm run build
+```
 
 Preview Production Site
 
-   ```sh
-   npm run serve
-   ```
+```sh
+npm run serve
+```
