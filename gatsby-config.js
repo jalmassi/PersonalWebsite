@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: "Justin Almassi",
     description:
-      "Justin Almassi is an automation/devOps engineer who specializes in building (and occasionally designing) exceptional digital experiences.",
-    siteUrl: "localhost:8000", // No trailing slash allowed!
+      "Justin Almassi is a software engineer who loves building exceptional digital experiences.",
+    siteUrl: "http://localhost:8000", // No trailing slash allowed!
     image: "/og.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
   },

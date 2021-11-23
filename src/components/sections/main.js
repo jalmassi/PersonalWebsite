@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import styled from 'styled-components';
-import { email } from '@config';
-import { navDelay, loaderDelay } from '@utils';
-import { usePrefersReducedMotion } from '@hooks';
+import React, { useState, useEffect } from "react";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+import styled from "styled-components";
+import { email } from "@config";
+import { navDelay, loaderDelay } from "@utils";
+import { usePrefersReducedMotion } from "@hooks";
 
 const StyledMainContainer = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -60,12 +60,15 @@ const Main = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Justin Almassi</h2>;
-  const three = <h3 className="medium-heading">I love creating awesome software!</h3>;
+  const three = (
+    <h3 className="medium-heading">I love building awesome software!</h3>
+  );
   const four = (
     <p>
-      I'm an automation/devops engineer specializing in developing software to automate processes
-      within the full stack. I am passionate about building websites and apps on my off-time. I am
-      always open to new opportunities, especially if it's in software engineering!
+      I'm a software engineer that builds software in React (Javascript),
+      Angular (TypeScript), Spring Boot(Java) and Python. I am passionate about
+      building websites and apps on my off-time. Give me a shout - I am always
+      open to new opportunities!
     </p>
   );
   const five = (
