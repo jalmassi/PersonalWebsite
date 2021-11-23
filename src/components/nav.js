@@ -228,7 +228,7 @@ const Nav = ({ isHome }) => {
                         }ms`,
                       }}
                     >
-                      {by - configLink}
+                      {ResumeLink}
                     </div>
                   </CSSTransition>
                 )}
