@@ -1,9 +1,9 @@
-import React, { useEffect, useRef } from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
-import styled from 'styled-components';
-import { srConfig } from '@config';
-import sr from '@utils/sr';
-import { usePrefersReducedMotion } from '@hooks';
+import React, { useEffect, useRef } from "react";
+import { StaticImage } from "gatsby-plugin-image";
+import styled from "styled-components";
+import { srConfig } from "@config";
+import sr from "@utils/sr";
+import { usePrefersReducedMotion } from "@hooks";
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -36,7 +36,7 @@ const StyledText = styled.div`
       font-size: var(--fz-xs);
 
       &:before {
-        content: '▹';
+        content: "▹";
         position: absolute;
         left: 0;
         color: var(--green);
@@ -89,7 +89,7 @@ const StyledPic = styled.div`
 
     &:before,
     &:after {
-      content: '';
+      content: "";
       display: block;
       position: absolute;
       width: 100%;
@@ -127,15 +127,15 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Java',
-    'Python',
-    'Jenkins',
-    'Twilio',
-    'Dynatrace',
-    'JavaScript (ES6+)',
-    'Node.js',
-    'Angular',
-    'React',
+    "Java",
+    "Python",
+    "Jenkins",
+    "Twilio",
+    "Dynatrace",
+    "JavaScript (ES6+)",
+    "Node.js",
+    "Angular",
+    "React",
   ];
 
   return (
@@ -146,13 +146,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am an automation engineer with a passion for programming websites &amp; apps, and
-              all things automatable!
+              I am a software engineer with a passion for programming websites
+              &amp; apps, and all things automatable!
             </p>
 
             <p>
-              I currently work at <a href="https://easyweb.td.com/"> TD Bank</a> exploring ways to
-              automate development process from a full stack perspective.
+              I currently work at <a href="https://easyweb.td.com/"> TD Bank</a>{" "}
+              exploring ways to automate development process from a full stack
+              perspective.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
@@ -170,7 +171,7 @@ const About = () => {
               src="../../images/profilePhoto.png"
               width={500}
               quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF']}
+              formats={["AUTO", "WEBP", "AVIF"]}
               alt="Headshot"
             />
           </div>
