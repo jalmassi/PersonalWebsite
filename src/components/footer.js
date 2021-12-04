@@ -91,7 +91,7 @@ const Footer = () => {
 
   return (
     <StyledFooter>
-      <StyledSocialLinks>
+      {/* <StyledSocialLinks>
         <ul>
           {socialMedia &&
             socialMedia.map(({ name, url }, i) => (
@@ -109,13 +109,13 @@ const Footer = () => {
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
-                {/* <Icon name="Star" /> */}
+                <Icon name="Star" />
                 <span>{githubInfo.stars.toLocaleString()}</span>
               </span>
             </div>
           )}
         </a>
-      </StyledCredit>
+      </StyledCredit> */}
     </StyledFooter>
   );
 };
