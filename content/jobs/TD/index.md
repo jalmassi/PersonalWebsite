@@ -1,10 +1,10 @@
 ---
-date: '2021-2-01'
-title: 'Automation Engineer'
-company: 'TD Bank'
-location: 'Toronto ON'
-range: 'February, 2021 - Present'
-url: 'https://www.td.com/ca'
+date: "2021-2-01"
+title: "Software Engineer - Automation"
+company: "TD Bank"
+location: "Toronto ON"
+range: "February, 2021 - Present"
+url: "https://www.td.com/ca"
 ---
 
 - Developed programs in both Java and Python to automate end-to-end processes in the development environment
