@@ -149,17 +149,6 @@ const Nav = ({ isHome }) => {
     </div>
   );
 
-  const ResumeLink = (
-    <a
-      className="resume-button"
-      href="/myResume.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Resume
-    </a>
-  );
-
   return (
     <StyledHeader
       scrollDirection={scrollDirection}
@@ -179,7 +168,6 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
             </StyledLinks>
 
             <Menu />
@@ -227,9 +215,7 @@ const Nav = ({ isHome }) => {
                           isHome ? navLinks.length * 100 : 0
                         }ms`,
                       }}
-                    >
-                      {ResumeLink}
-                    </div>
+                    ></div>
                   </CSSTransition>
                 )}
               </TransitionGroup>

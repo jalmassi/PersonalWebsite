@@ -58,26 +58,20 @@ const Main = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Justin Almassi</h2>;
+  // const one = <h1>Hi, my name is</h1>;
+  // const two = <h2 className="big-heading">Justin Almassi</h2>;
   const three = (
-    <h3 className="medium-heading">I love building awesome software!</h3>
+    <h3 className="medium-heading">Sorry! Site is under maintenance!</h3>
   );
-  const four = (
-    <p>
-      I'm a software engineer that builds software in React (Javascript),
-      Angular (TypeScript), Spring Boot(Java) and Python. I am passionate about
-      building websites and apps on my off-time. Give me a shout - I am always
-      open to new opportunities!
-    </p>
-  );
+  const four = <p>It'll be back soon!</p>;
   const five = (
     <a href={`mailto:${email}`} className="email-link">
       Get In Touch
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [three, four, five];
+  // const items = [one, two, three, four, five];
 
   return (
     <StyledMainContainer>
