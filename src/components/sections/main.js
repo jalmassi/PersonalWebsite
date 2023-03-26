@@ -58,17 +58,14 @@ const Main = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
+  const one = <h1></h1>;
   const two = <h2 className="big-heading">Justin Almassi</h2>;
   const three = (
-    <h3 className="medium-heading">I love building awesome software!</h3>
+    <h3 className="medium-heading"></h3>
   );
   const four = (
     <p>
-      I'm a software engineer that builds software in React (Javascript),
-      Angular (TypeScript), Spring Boot(Java) and Python. I am passionate about
-      building websites and apps on my off-time. Give me a shout - I am always
-      open to new opportunities!
+      Software Engineer at Loblaw Digital
     </p>
   );
   const five = (

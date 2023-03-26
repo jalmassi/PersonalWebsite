@@ -128,35 +128,41 @@ const About = () => {
 
   const skills = [
     "Java",
+    "Spring Boot",
+    "GCP",
+    "Kubernetes",
     "Python",
     "Jenkins",
-    "Twilio",
-    "Dynatrace",
-    "JavaScript (ES6+)",
+    "Typescript",
+    "JavaScript",
     "Node.js",
-    "Angular",
     "React",
+    "Dynatrace",
+    "Twilio",
   ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">Who I Am</h2>
 
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              I am a software engineer with a passion for programming websites
-              &amp; apps, and all things automatable!
+              I am a software engineer with a passion for ecommerce &amp; fintech
+               apps!
             </p>
 
             <p>
-              I currently work at <a href="https://easyweb.td.com/"> TD Bank</a>{" "}
-              exploring ways to automate development process from a full stack
-              perspective.
+              I currently work at <a href="https://www.loblawdigital.co/"> Loblaw Digital</a>{" "}
+              exploring ways improve and build new features sponsored search optimization. 
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              Earlier, I worked in fintech at <a href="https://www.td.com/us/en/personal-banking">TD Bank</a> developing a messaging platform capable of handling millions of messages regularly
+            </p>
+
+            <p>Here's a list of some of the technologies that I've been working with:</p>
           </div>
 
           <ul className="skills-list">
